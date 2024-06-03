@@ -1,4 +1,4 @@
-import './graciasPorSuCompra.css';
+import './gracias.css';
 import { NavLink } from "react-router-dom";
 
 function Gracias_Por_Comprar() {
