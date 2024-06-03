@@ -1,4 +1,4 @@
-import "./PeliculasPage.css";
+import "./peliculasPage.css";
 import { useLocation } from "react-router-dom";
 import peliculaPage from "../../data/movies.json";
 

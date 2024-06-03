@@ -1,4 +1,4 @@
-import "./Videojuegospage.css";
+import "./videojuegospage.css";
 import { useLocation } from "react-router-dom";
 import juegoPage from "../../data/videogames.json";
 
