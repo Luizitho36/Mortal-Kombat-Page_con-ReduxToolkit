@@ -1,4 +1,4 @@
-import'./mK_1995_Ver.css';
+import'./mK1995_Ver.css';
 import ReactPlayer from "react-player";
 import { NavLink } from "react-router-dom";
 
