@@ -22,7 +22,7 @@ import Peliculas from "./pages/Peliculas/Peliculas";
 import PeliculasPage from "./pages/Peliculas/peliculasPage";
 import MK_1995_Ver from "./pages/Peliculas/MK_1995_Ver";
 import Videos from "./layout/Videos/Videos";
-import "./app.css";
+import "./App.css";
 
 function App() {
   const store = useSelector((store) => store);
