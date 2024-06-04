@@ -18,6 +18,15 @@ function TotalToPay() {
     print();
   };
 
+  const showbutton = $(document).ready(function(){
+    if (precioTotal < 1) {
+      return $(".boton-comprar").hide(350);
+    };
+    if (precioTotal > 0) {
+      return $(".boton-comprar").show(250);
+    }
+  });
+
   return (
     <div>
       {/* Cuadro con cantidad de productos y total a pagar */}
