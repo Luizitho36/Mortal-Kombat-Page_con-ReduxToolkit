@@ -7,6 +7,7 @@
 .Games{
     margin: 13px;
     padding: 13px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 @media screen and (max-width: 698px) {

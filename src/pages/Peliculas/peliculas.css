@@ -10,6 +10,7 @@
 .Movies{
     padding: 10px;
     margin: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 @media screen and (max-width:650px){

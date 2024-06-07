@@ -1,6 +1,6 @@
 * {
   font-family: "Coda Caption", sans-serif;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .precio-item {
@@ -11,7 +11,7 @@
 .caja-item {
   background-color: #110d19;
   margin: 15px 12px;
-  height: 500px;
+  height: 405px;
   width: 255px;
   border-radius: 5px;
   border: 1px solid #0b012d;
@@ -25,7 +25,7 @@
 }
 
 .boton-agregar {
-  font-size: 20px;
+  font-size: 13.5px;
   background-color: #a00404;
   border-radius: 5px;
   color: #ffffff;
@@ -35,7 +35,7 @@
 }
 
 .boton-eliminar {
-  font-size: 23px;
+  font-size: 13.5px;
   background-color: #d9534f;
   border-radius: 5px;
   color: #fff;
@@ -45,7 +45,7 @@
 }
 
 .agregar-mas {
-  font-size: 23px;
+  font-size: 13.5px;
   background-color: #4c83b3;
   border-radius: 5px;
   color: #fff;
@@ -67,106 +67,134 @@
 
 @media screen and (max-width: 698px) {
   * {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .caja-item {
-    height: 450px;
+    margin: 12px 10px;
+    height: 350px;
     width: 40%;
-    padding: 10px;
+    padding: 9px;
   }
 
   .imgURL {
     width: 95%;
-    height: 55%;
+    height: 250px;
   }
 
-  .boton-agregar, .boton-eliminar {
+  .boton-agregar,
+  .boton-eliminar {
     border-radius: 10px;
-    font-size: 17px;
+    font-size: 12px;
     padding: 10px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .caja-item {
-    height: 280px;
-    width: 40%;
-    padding: 8px;
+    height: 320px;
+    width: 41.5%;
+    padding: 2px;
   }
 
-  .boton-agregar, .boton-eliminar {
-    font-size: 15px;
-    padding: 8px;
+  .boton-agregar,
+  .boton-eliminar {
+    font-size: 11px;
+    padding: 5px;
   }
 }
 
 @media screen and (max-width: 530px) {
   * {
-    font-size: 12.2px;
+    font-size: 11px;
   }
 
-  .boton-agregar, .boton-eliminar {
-    padding: 5px;
+  .boton-agregar,
+  .boton-eliminar {
+    padding: 4px;
   }
 }
 
 @media screen and (max-width: 484px) {
   .caja-item {
-    height: 280px;
+    font-size: 12px;
+    height: 250px;
     width: 38%;
-    padding: 6px;
+    padding: 2px;
   }
 
-  .boton-agregar, .boton-eliminar {
-    font-size: 12px;
+  .imgURL {
+    width: 95%;
+    height: 170px;
+  }
+
+  .boton-agregar,
+  .boton-eliminar {
+    font-size: 9px;
     padding: 6px;
   }
 }
 
 @media screen and (max-width: 440px) {
   .caja-item {
-    height: 250px;
+    height: 210px;
     width: 35%;
-    padding: 5px;
-  }
-
-  .boton-agregar, .boton-eliminar {
-    font-size: 11px;
-    padding: 5px;
-  }
-}
-
-@media screen and (max-width: 392px) {
-  .caja-item {
-    height: 200px;
-    width: 34.5%;
     padding: 1px;
   }
 
-  .boton-agregar, .boton-eliminar {
-    font-size: 10px;
-    padding: 3px;
+  .imgURL {
+    width: 95%;
+    height: 130px;
+  }
+
+  .boton-agregar,
+  .boton-eliminar {
+    padding: 5px;
   }
 }
 
-@media screen and (max-width: 362px) {
-  * {
-    font-size: 9px;
-  }
-}
-
-@media screen and (max-width: 282px) {
+@media screen and (max-width: 372px) {
   * {
     font-size: 10px;
   }
 
   .caja-item {
-    height: 270px;
-    width: 80%;
+    height: 250px;
+    width: 60%;
   }
 
-  .boton-agregar, .boton-eliminar {
-    font-size: 13px;
+  .imgURL {
+    width: 95%;
+    height: 190px;
+  }
+
+  .boton-agregar,
+  .boton-eliminar {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .caja-item {
+    height: 260px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  * {
+    font-size: 9px;
+  }
+
+  .caja-item {
+    height: 260px;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 255px) {
+  .caja-item {
+    height: 260px;
+    width: 90%;
   }
 }

@@ -1,6 +1,6 @@
 .MKPeliculasPage {
     background-color: rgb(18, 3, 18);
-    font-size: 28px;
+    font-size: 13px;
     font-family: 'Poltawski Nowy', serif;
     color: rgb(234, 226, 243);
     text-align: center;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width:650px){
     .MKPeliculasPage {
-        font-size: 20px;
+        font-size: 11px;
         max-width: 90%;
     }
 }
