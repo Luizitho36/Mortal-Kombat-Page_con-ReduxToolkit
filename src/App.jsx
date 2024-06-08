@@ -39,8 +39,6 @@ function App() {
           <Route path="/peliculas" element={<Peliculas />} />
           <Route path="/videojuegos" element={<Videojuegos />} />
           <Route path="/Store" element={<StorePage />} />
-          <Route path="*" element={<NotFound />} />
-
           <Route
             path="/peliculas/:pagina"
             element={
@@ -57,7 +55,6 @@ function App() {
             path="/peliculas/MK_1995/MK_1995_Ver"
             element={<MK_1995_Ver />}
           />
-
           <Route path="/Store/carrito" element={<Carrito />} />
           <Route
             path="/Store/carrito/gracias"
@@ -76,6 +73,7 @@ function App() {
               />
             }
           />
+           <Route path="*" element={<NotFound />} />
         </Routes>
 
         <Videos />
