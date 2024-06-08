@@ -1,7 +1,7 @@
-import "./item.css";
 import { useState } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { agregarAlCarrito, eliminarDelCarrito } from "../../redux/actions";
+import "./Item.css";
 
 export default function Item({ name, price, id, imgUrl }) {
   
