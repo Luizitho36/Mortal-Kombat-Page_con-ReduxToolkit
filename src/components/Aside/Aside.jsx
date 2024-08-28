@@ -7,7 +7,7 @@ function Aside() {
       <p className="pAside">
         <br></br>
         {/* Publicidad sencilla para dirigirse al Store */}
-        Todos los juegos de todas las plataformas al mejor precio
+        Todos los JUEGOS de todas las PLATAFORMAS al MEJOR PRECIO
         <NavLink to="/store">
           <button className="buttonAside">Haz click aquí</button>
         </NavLink>
