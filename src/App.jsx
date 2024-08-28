@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import Header from './layout/Header/Header';
 import Nav from "./layout/Nav/Nav";
 import Search from "./layout/Search/Search";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Footer from "./layout/Footer/Footer";
 import NotFound from "./pages/NotFound";
 import { StorePage } from "./pages/Store/indexStore";

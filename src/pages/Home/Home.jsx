@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-import Aside from "../components/Aside/Aside";
+import Aside from "../../components/Aside/Aside";
 import "./home.css";
-import Peliculas from "../img/Home/Peliculas.jpg";
-import Videojuegos from "../img/Home/Videojuegos.jpg";
+import Peliculas from "../../img/Home/Peliculas.jpg";
+import Videojuegos from "../../img/Home/Videojuegos.jpg";
 
 function Home() {
   return (
